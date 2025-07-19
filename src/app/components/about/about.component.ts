@@ -92,25 +92,18 @@ export class AboutComponent {
 
   projects: Project[] = [
     {
-      name: 'Calendar List',
+      name: 'Calendar List FrontEnd' ,
       description: 'A calendar list application with a modern UI and smooth animations that helps you manage your tasks and events.',
-      technologies: ['Angular', '.NET Core', 'MongoDB', 'Tailwind CSS', 'RxJS', 'NgRx'],
+      technologies: ['Angular', 'Tailwind CSS', 'RxJS'],
       link: 'https://todolist-angular-tau.vercel.app/dashboard/calendar-self',
       github: 'https://github.com/dieo20011/Front_End_ToDoList'
     },
     {
       name: 'Calendar List Backend',
       description: 'Collaborative task management application with real-time updates and team collaboration features',
-      technologies: ['Angular', 'SignalR', '.NET Core', 'Entity Framework', 'Bootstrap'],
+      technologies: ['.NET Core', 'Entity Framework', 'MongoDB'],
       github: 'https://github.com/luandev/task-management'
     },
-    {
-      name: 'Weather Dashboard',
-      description: 'Interactive weather dashboard with location-based forecasts and historical data visualization',
-      technologies: ['Angular', 'Chart.js', 'Weather API', 'Tailwind CSS'],
-      link: 'https://weather-dashboard-demo.com',
-      github: 'https://github.com/luandev/weather-dashboard'
-    }
   ];
 
   skills: Skill[] = [
@@ -124,7 +117,7 @@ export class AboutComponent {
     },
     {
       category: 'Database',
-      items: ['SQL Server', 'MySQL', 'PostgreSQL', 'MongoDB', 'Redis']
+      items: ['SQL Server', 'MongoDB']
     },
     {
       category: 'Tools & DevOps',
@@ -132,7 +125,7 @@ export class AboutComponent {
     },
     {
       category: 'Methodologies',
-      items: ['Agile', 'Scrum', 'Clean Architecture', 'SOLID Principles', 'TDD', 'Code Reviews']
+      items: ['Agile', 'Scrum', 'Clean Architecture']
     }
   ];
 }
