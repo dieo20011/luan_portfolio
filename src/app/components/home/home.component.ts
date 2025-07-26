@@ -15,8 +15,8 @@ export class HomeComponent {
   downloadCV(): void {
     // Create a sample CV download - you can replace this with actual CV file
     const link = document.createElement('a');
-    link.href = 'assets/cv/CV_PhamDuyLuan.pdf'; // You'll need to add your actual CV file here
-    link.download = 'CV_PhamDuyLuan.pdf';
+    link.href = 'assets/cv/CV_'; // You'll need to add your actual CV file here
+    link.download = 'CV_PHAMDUYLUAN_FE.pdf';
     link.click();
   }
 
