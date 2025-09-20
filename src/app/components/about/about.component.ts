@@ -1,43 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-interface Experience {
-  title: string;
-  company: string;
-  period: string;
-  description: string[];
-  technologies: string[];
-}
-
-interface Education {
-  degree: string;
-  school: string;
-  period: string;
-  description?: string;
-}
-
-interface Certificate {
-  name: string;
-  issuer: string;
-  issueDate: string;
-  expiryDate?: string;
-  credentialId?: string;
-  verificationUrl?: string;
-  description?: string;
-}
-
-interface Project {
-  name: string;
-  description: string;
-  technologies: string[];
-  link?: string;
-  github?: string;
-}
-
-interface Skill {
-  category: string;
-  items: string[];
-}
+import { Experience, Education, Certificate, Project, Skill } from './about.interface';
 
 @Component({
   selector: 'app-about',
@@ -83,7 +46,7 @@ export class AboutComponent {
     },
     {
       name: 'CERTIFICATE OF TOEIC',
-      issuer: 'Writing and Speaking (170)',
+      issuer: 'Writing and Speaking (270)',
       issueDate: '2023',
       expiryDate: '2025',
       description: 'Writing and Speaking Skills'
@@ -102,7 +65,7 @@ export class AboutComponent {
       name: 'Calendar List Backend',
       description: 'Collaborative task management application with real-time updates and team collaboration features',
       technologies: ['.NET Core', 'Entity Framework', 'MongoDB'],
-      github: 'https://github.com/luandev/task-management'
+      github: 'https://github.com/dieo20011/BE_ToDoList'
     },
   ];
 
