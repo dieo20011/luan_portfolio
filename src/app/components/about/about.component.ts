@@ -76,7 +76,7 @@ export class AboutComponent {
     },
     {
       category: 'Backend',
-      items: ['.NET Core', 'C#', 'Entity Framework', 'ASP.NET Web API', 'SignalR', 'Microservices']
+      items: ['.NET Core', 'C#', 'Entity Framework', 'ASP.NET Web API', 'SignalR']
     },
     {
       category: 'Database',
