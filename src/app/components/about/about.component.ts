@@ -75,10 +75,6 @@ export class AboutComponent {
       items: ['Angular', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'RxJS', 'NgRx']
     },
     {
-      category: 'Backend',
-      items: ['.NET Core', 'C#', 'Entity Framework', 'ASP.NET Web API', 'SignalR']
-    },
-    {
       category: 'Database',
       items: ['SQL Server', 'MongoDB']
     },
