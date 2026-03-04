@@ -67,6 +67,13 @@ export class AboutComponent {
       technologies: ['.NET Core', 'Entity Framework', 'MongoDB'],
       github: 'https://github.com/dieo20011/BE_ToDoList'
     },
+    {
+      name: 'Badminton Courts Management System',
+      description: 'A badminton courts management system with a modern UI and smooth animations that helps you manage your badminton courts and players.',
+      technologies: ['Angular', 'Tailwind CSS', 'RxJS', "SignalR"],
+      link: 'https://badmintonauto.vercel.app/login',
+      github: 'https://github.com/dieo20011/badminton_automatic',
+    },
   ];
 
   skills: Skill[] = [
